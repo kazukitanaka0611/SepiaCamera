@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0CC513149D7E6B00E6F1D4 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC508149D7E6B00E6F1D4 /* NSObject+SBJSON.m */; };
+		2F0CC514149D7E6B00E6F1D4 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC50A149D7E6B00E6F1D4 /* NSString+SBJSON.m */; };
+		2F0CC515149D7E6B00E6F1D4 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC50C149D7E6B00E6F1D4 /* SBJSON.m */; };
+		2F0CC516149D7E6B00E6F1D4 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC50E149D7E6B00E6F1D4 /* SBJsonBase.m */; };
+		2F0CC517149D7E6B00E6F1D4 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC510149D7E6B00E6F1D4 /* SBJsonParser.m */; };
+		2F0CC518149D7E6B00E6F1D4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CC512149D7E6B00E6F1D4 /* SBJsonWriter.m */; };
+		2F117A9A149D7C4E000EB3C5 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F117A91149D7C4E000EB3C5 /* Facebook.m */; };
+		2F117A9B149D7C4E000EB3C5 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F117A93149D7C4E000EB3C5 /* FBDialog.bundle */; };
+		2F117A9C149D7C4E000EB3C5 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F117A95149D7C4E000EB3C5 /* FBDialog.m */; };
+		2F117A9D149D7C4E000EB3C5 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F117A97149D7C4E000EB3C5 /* FBLoginDialog.m */; };
+		2F117A9E149D7C4E000EB3C5 /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F117A99149D7C4E000EB3C5 /* FBRequest.m */; };
+		2F377627149437E900653D03 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F377626149437E900653D03 /* CoreImage.framework */; };
+		2F95CDE51490F4F1001B4FDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F95CDE41490F4F0001B4FDA /* UIKit.framework */; };
+		2F95CDE71490F4F1001B4FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F95CDE61490F4F1001B4FDA /* Foundation.framework */; };
+		2F95CDE91490F4F1001B4FDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F95CDE81490F4F1001B4FDA /* CoreGraphics.framework */; };
+		2F95CDEF1490F4F1001B4FDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F95CDED1490F4F1001B4FDA /* InfoPlist.strings */; };
+		2F95CDF11490F4F1001B4FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95CDF01490F4F1001B4FDA /* main.m */; };
+		2F95CDF51490F4F1001B4FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95CDF41490F4F1001B4FDA /* AppDelegate.m */; };
+		2F95CDF81490F4F1001B4FDA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F95CDF61490F4F1001B4FDA /* MainStoryboard.storyboard */; };
+		2F95CDFB1490F4F1001B4FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95CDFA1490F4F1001B4FDA /* ViewController.m */; };
+		2FE83188149449670036AF12 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE83187149449670036AF12 /* MessageUI.framework */; };
+		2FE8318B14944E020036AF12 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE8318A14944E020036AF12 /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0CC506149D7E6B00E6F1D4 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		2F0CC507149D7E6B00E6F1D4 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		2F0CC508149D7E6B00E6F1D4 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		2F0CC509149D7E6B00E6F1D4 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		2F0CC50A149D7E6B00E6F1D4 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		2F0CC50B149D7E6B00E6F1D4 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		2F0CC50C149D7E6B00E6F1D4 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		2F0CC50D149D7E6B00E6F1D4 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		2F0CC50E149D7E6B00E6F1D4 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		2F0CC50F149D7E6B00E6F1D4 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		2F0CC510149D7E6B00E6F1D4 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		2F0CC511149D7E6B00E6F1D4 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		2F0CC512149D7E6B00E6F1D4 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		2F117A8F149D7C4E000EB3C5 /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		2F117A90149D7C4E000EB3C5 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		2F117A91149D7C4E000EB3C5 /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		2F117A92149D7C4E000EB3C5 /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		2F117A93149D7C4E000EB3C5 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		2F117A94149D7C4E000EB3C5 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		2F117A95149D7C4E000EB3C5 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		2F117A96149D7C4E000EB3C5 /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		2F117A97149D7C4E000EB3C5 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		2F117A98149D7C4E000EB3C5 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		2F117A99149D7C4E000EB3C5 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		2F377626149437E900653D03 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2F95CDE01490F4F0001B4FDA /* SepiaCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepiaCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F95CDE41490F4F0001B4FDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F95CDE61490F4F1001B4FDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F95CDE81490F4F1001B4FDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F95CDEC1490F4F1001B4FDA /* SepiaCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SepiaCamera-Info.plist"; sourceTree = "<group>"; };
+		2F95CDEE1490F4F1001B4FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F95CDF01490F4F1001B4FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F95CDF21490F4F1001B4FDA /* SepiaCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SepiaCamera-Prefix.pch"; sourceTree = "<group>"; };
+		2F95CDF31490F4F1001B4FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F95CDF41490F4F1001B4FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F95CDF71490F4F1001B4FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2F95CDF91490F4F1001B4FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F95CDFA1490F4F1001B4FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE83187149449670036AF12 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2FE8318A14944E020036AF12 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F95CDDD1490F4F0001B4FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE8318B14944E020036AF12 /* Twitter.framework in Frameworks */,
+				2FE83188149449670036AF12 /* MessageUI.framework in Frameworks */,
+				2F377627149437E900653D03 /* CoreImage.framework in Frameworks */,
+				2F95CDE51490F4F1001B4FDA /* UIKit.framework in Frameworks */,
+				2F95CDE71490F4F1001B4FDA /* Foundation.framework in Frameworks */,
+				2F95CDE91490F4F1001B4FDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0CC505149D7E6B00E6F1D4 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CC506149D7E6B00E6F1D4 /* JSON.h */,
+				2F0CC507149D7E6B00E6F1D4 /* NSObject+SBJSON.h */,
+				2F0CC508149D7E6B00E6F1D4 /* NSObject+SBJSON.m */,
+				2F0CC509149D7E6B00E6F1D4 /* NSString+SBJSON.h */,
+				2F0CC50A149D7E6B00E6F1D4 /* NSString+SBJSON.m */,
+				2F0CC50B149D7E6B00E6F1D4 /* SBJSON.h */,
+				2F0CC50C149D7E6B00E6F1D4 /* SBJSON.m */,
+				2F0CC50D149D7E6B00E6F1D4 /* SBJsonBase.h */,
+				2F0CC50E149D7E6B00E6F1D4 /* SBJsonBase.m */,
+				2F0CC50F149D7E6B00E6F1D4 /* SBJsonParser.h */,
+				2F0CC510149D7E6B00E6F1D4 /* SBJsonParser.m */,
+				2F0CC511149D7E6B00E6F1D4 /* SBJsonWriter.h */,
+				2F0CC512149D7E6B00E6F1D4 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		2F117A8D149D7BF7000EB3C5 /* FBConnect */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CC505149D7E6B00E6F1D4 /* JSON */,
+				2F117A8F149D7C4E000EB3C5 /* facebook_ios_sdk_Prefix.pch */,
+				2F117A90149D7C4E000EB3C5 /* Facebook.h */,
+				2F117A91149D7C4E000EB3C5 /* Facebook.m */,
+				2F117A92149D7C4E000EB3C5 /* FBConnect.h */,
+				2F117A93149D7C4E000EB3C5 /* FBDialog.bundle */,
+				2F117A94149D7C4E000EB3C5 /* FBDialog.h */,
+				2F117A95149D7C4E000EB3C5 /* FBDialog.m */,
+				2F117A96149D7C4E000EB3C5 /* FBLoginDialog.h */,
+				2F117A97149D7C4E000EB3C5 /* FBLoginDialog.m */,
+				2F117A98149D7C4E000EB3C5 /* FBRequest.h */,
+				2F117A99149D7C4E000EB3C5 /* FBRequest.m */,
+			);
+			name = FBConnect;
+			sourceTree = "<group>";
+		};
+		2F95CDD51490F4F0001B4FDA = {
+			isa = PBXGroup;
+			children = (
+				2F95CDEA1490F4F1001B4FDA /* SepiaCamera */,
+				2F95CDE31490F4F0001B4FDA /* Frameworks */,
+				2F95CDE11490F4F0001B4FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F95CDE11490F4F0001B4FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F95CDE01490F4F0001B4FDA /* SepiaCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F95CDE31490F4F0001B4FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE8318A14944E020036AF12 /* Twitter.framework */,
+				2FE83187149449670036AF12 /* MessageUI.framework */,
+				2F377626149437E900653D03 /* CoreImage.framework */,
+				2F95CDE41490F4F0001B4FDA /* UIKit.framework */,
+				2F95CDE61490F4F1001B4FDA /* Foundation.framework */,
+				2F95CDE81490F4F1001B4FDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F95CDEA1490F4F1001B4FDA /* SepiaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				2F117A8D149D7BF7000EB3C5 /* FBConnect */,
+				2F95CDF31490F4F1001B4FDA /* AppDelegate.h */,
+				2F95CDF41490F4F1001B4FDA /* AppDelegate.m */,
+				2F95CDF91490F4F1001B4FDA /* ViewController.h */,
+				2F95CDFA1490F4F1001B4FDA /* ViewController.m */,
+				2F95CDF61490F4F1001B4FDA /* MainStoryboard.storyboard */,
+				2F95CDEB1490F4F1001B4FDA /* Supporting Files */,
+			);
+			path = SepiaCamera;
+			sourceTree = "<group>";
+		};
+		2F95CDEB1490F4F1001B4FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F95CDEC1490F4F1001B4FDA /* SepiaCamera-Info.plist */,
+				2F95CDED1490F4F1001B4FDA /* InfoPlist.strings */,
+				2F95CDF01490F4F1001B4FDA /* main.m */,
+				2F95CDF21490F4F1001B4FDA /* SepiaCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F95CDDF1490F4F0001B4FDA /* SepiaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F95CDFE1490F4F1001B4FDA /* Build configuration list for PBXNativeTarget "SepiaCamera" */;
+			buildPhases = (
+				2F95CDDC1490F4F0001B4FDA /* Sources */,
+				2F95CDDD1490F4F0001B4FDA /* Frameworks */,
+				2F95CDDE1490F4F0001B4FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SepiaCamera;
+			productName = SepiaCamera;
+			productReference = 2F95CDE01490F4F0001B4FDA /* SepiaCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F95CDD71490F4F0001B4FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2F95CDDA1490F4F0001B4FDA /* Build configuration list for PBXProject "SepiaCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F95CDD51490F4F0001B4FDA;
+			productRefGroup = 2F95CDE11490F4F0001B4FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F95CDDF1490F4F0001B4FDA /* SepiaCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F95CDDE1490F4F0001B4FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F95CDEF1490F4F1001B4FDA /* InfoPlist.strings in Resources */,
+				2F95CDF81490F4F1001B4FDA /* MainStoryboard.storyboard in Resources */,
+				2F117A9B149D7C4E000EB3C5 /* FBDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F95CDDC1490F4F0001B4FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F95CDF11490F4F1001B4FDA /* main.m in Sources */,
+				2F95CDF51490F4F1001B4FDA /* AppDelegate.m in Sources */,
+				2F95CDFB1490F4F1001B4FDA /* ViewController.m in Sources */,
+				2F117A9A149D7C4E000EB3C5 /* Facebook.m in Sources */,
+				2F117A9C149D7C4E000EB3C5 /* FBDialog.m in Sources */,
+				2F117A9D149D7C4E000EB3C5 /* FBLoginDialog.m in Sources */,
+				2F117A9E149D7C4E000EB3C5 /* FBRequest.m in Sources */,
+				2F0CC513149D7E6B00E6F1D4 /* NSObject+SBJSON.m in Sources */,
+				2F0CC514149D7E6B00E6F1D4 /* NSString+SBJSON.m in Sources */,
+				2F0CC515149D7E6B00E6F1D4 /* SBJSON.m in Sources */,
+				2F0CC516149D7E6B00E6F1D4 /* SBJsonBase.m in Sources */,
+				2F0CC517149D7E6B00E6F1D4 /* SBJsonParser.m in Sources */,
+				2F0CC518149D7E6B00E6F1D4 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F95CDED1490F4F1001B4FDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F95CDEE1490F4F1001B4FDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F95CDF61490F4F1001B4FDA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F95CDF71490F4F1001B4FDA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F95CDFC1490F4F1001B4FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F95CDFD1490F4F1001B4FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F95CDFF1490F4F1001B4FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SepiaCamera/SepiaCamera-Prefix.pch";
+				INFOPLIST_FILE = "SepiaCamera/SepiaCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F95CE001490F4F1001B4FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SepiaCamera/SepiaCamera-Prefix.pch";
+				INFOPLIST_FILE = "SepiaCamera/SepiaCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F95CDDA1490F4F0001B4FDA /* Build configuration list for PBXProject "SepiaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F95CDFC1490F4F1001B4FDA /* Debug */,
+				2F95CDFD1490F4F1001B4FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F95CDFE1490F4F1001B4FDA /* Build configuration list for PBXNativeTarget "SepiaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F95CDFF1490F4F1001B4FDA /* Debug */,
+				2F95CE001490F4F1001B4FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F95CDD71490F4F0001B4FDA /* Project object */;
+}
